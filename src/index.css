@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-like-red: #C4272D;
+  --color-like-red-dark: #A51D22;
+  --color-like-gold: #D4B475;
+  --color-like-dark: #1A1A1A;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-like-dark bg-white;
+  }
+}
+
